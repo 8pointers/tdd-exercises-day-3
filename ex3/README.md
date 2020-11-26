@@ -7,3 +7,5 @@ To do that, use HttpJsonRpc package - it allows you to define JSON RPC quickly d
 https://github.com/httpjsonrpcnet/httpjsonrpcnet
 
 Make sure your class implements both the "happy-path" and the failure scenarios.
+
+Once you get a working JsonRpcClient, write an end-to-end test for the RandomOrgRng.
