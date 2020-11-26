@@ -1,3 +1,4 @@
+using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -15,6 +16,12 @@ namespace jsonrpc
         public static Task aMethod(int aParameter)
         {
             return Task.FromResult(aParameter + 1);
+        }
+
+        [JsonRpcMethod]
+        public static Task aBadMethod(int aParameter)
+        {
+            throw new Exception("We have a problem!");
         }
 
         [SetUp]
