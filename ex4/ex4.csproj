@@ -1,13 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netcoreapp5.0</TargetFramework>
 
         <IsPackable>false</IsPackable>
 
         <AssemblyName>life</AssemblyName>
 
         <RootNamespace>life</RootNamespace>
+
+        <LangVersion>9</LangVersion>
+
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>

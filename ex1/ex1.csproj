@@ -1,13 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netcoreapp5.0</TargetFramework>
 
         <IsPackable>false</IsPackable>
 
         <AssemblyName>random.org</AssemblyName>
 
         <RootNamespace>random.org</RootNamespace>
+
+        <LangVersion>9</LangVersion>
+
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
